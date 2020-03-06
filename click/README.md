@@ -1,68 +1,42 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# click-shuffle-game
 
-## Available Scripts
+# clicky-game
 
-In the project directory, you can run:
+## Technologies used:
+Visual Studio Code and React framework
 
-### `npm start`
+## Summary 
+The following clicky game is my first attempt at building an application with the React framework. I built each piece of the UI via React components and placed in props, states, and onClick listeners to allow the user to interact with the UI. The goal of the application is to click on each badge only once and rack up a total of 8 points (a point for each gym badge clicked on). If the user clicks on the same Pokemon gym badge twice, then the game ends and the game restarts itself. 
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This application is an excercise in array manipulation, .map functioning, setting states, and placing props into components so that they can inherit properties and communication with other components of the application. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Things I learned:
 
-### `npm test`
+1. React in general. I had never worked with this framework before, so many hours went into researching how React works and how to put the entire working UI together. 
+2. How to use methods to manipulate array elements. I did this by including a function to shuffle the elements inside of an array, thus changing the position of badges with the assistance of an onClick listener. 
+3. How to build individual components, and then export them and require them all in the App.js file before rendering them in the Index.js file.
+4. How to use flexgrid to make a clean row. 
+5. How to create a function that runs multiple functions once called.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Steps I took:
+1. Research, research, research! I spent many hours over the weekend watching YouTube videos and studying class activities. 
+2. After studying the layout and placement of files I started creating my first component, which was a Bootstrap component for a Jumbotron.
+3. Created a .json file that contains an array filled with object elements. 
+4. Created a "BadgeCard" component where props were passed down to give Onclick listening that would execute the shuffle array function, meaning each clicked badge would reshuffle the arrangement of badges on the UI.
+5. Placed in an image for the jumbotron.
+6. Coded an increment function so that the user score would increase with each badge clicked. 
+7. Alert set up so that once 8 badges were clicked user was informed that they won the game. The game would then reset itself with score back to 0.
 
-### `npm run build`
+## Sources: 
+My tutor Ryan who helped me with the shuffle function, classroom assignments, tutorial overviews on React, Stack Overflow.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Screenshots & gif:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+## Badge click resulting in badge shuffle and score increment
+![Badge clicked](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/badge.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## UI of application
+![UI](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/Screen%20Shot%202020-02-19%20at%205.10.54%20PM.png)
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Code snippet passing in props to BadgeCard
+![Passing props](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/Screen%20Shot%202020-02-19%20at%205.12.16%20PM.png)
