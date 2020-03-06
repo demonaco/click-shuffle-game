@@ -19,6 +19,7 @@ class App extends Component {
      if (this.state.clickedItems.includes(badges)) {
      alert("You clicked the same badge twice! Please try again")
      this.setState({score : 0})
+     this.setState({clickedItems: []})
      }else{
       this.state.clickedItems.push(badges);
      }
