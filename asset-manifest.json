@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/click-shuffle-game/static/css/main.7c4c5ed2.chunk.css",
+    "main.js": "/click-shuffle-game/static/js/main.4c5100a7.chunk.js",
+    "main.js.map": "/click-shuffle-game/static/js/main.4c5100a7.chunk.js.map",
+    "runtime-main.js": "/click-shuffle-game/static/js/runtime-main.2158771e.js",
+    "runtime-main.js.map": "/click-shuffle-game/static/js/runtime-main.2158771e.js.map",
+    "static/js/2.de521c22.chunk.js": "/click-shuffle-game/static/js/2.de521c22.chunk.js",
+    "static/js/2.de521c22.chunk.js.map": "/click-shuffle-game/static/js/2.de521c22.chunk.js.map",
+    "index.html": "/click-shuffle-game/index.html",
+    "precache-manifest.89d2af9073014e6363b6f38825bdadd9.js": "/click-shuffle-game/precache-manifest.89d2af9073014e6363b6f38825bdadd9.js",
+    "service-worker.js": "/click-shuffle-game/service-worker.js",
+    "static/css/main.7c4c5ed2.chunk.css.map": "/click-shuffle-game/static/css/main.7c4c5ed2.chunk.css.map",
+    "static/js/2.de521c22.chunk.js.LICENSE.txt": "/click-shuffle-game/static/js/2.de521c22.chunk.js.LICENSE.txt",
+    "static/media/pikachu.jpg": "/click-shuffle-game/static/media/pikachu.f35c43bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2158771e.js",
+    "static/js/2.de521c22.chunk.js",
+    "static/css/main.7c4c5ed2.chunk.css",
+    "static/js/main.4c5100a7.chunk.js"
+  ]
+}
