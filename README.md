@@ -35,7 +35,7 @@ My tutor Ryan who helped me with the shuffle function, classroom assignments, tu
 ![Badge clicked](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/badge.gif)
 
 ## UI of application
-![UI](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/Screen%20Shot%202020-02-19%20at%205.10.54%20PM.png)
+![UI](https://github.com/demonaco/click-shuffle-game/blob/master/Screen%20Shot%202020-02-19%20at%205.10.54%20PM.png)
 
 ## Code snippet passing in props to BadgeCard
 ![Passing props](https://github.com/demonaco/click-shuffle-game/blob/master/click/public/Screen%20Shot%202020-02-19%20at%205.12.16%20PM.png)
